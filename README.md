@@ -130,12 +130,6 @@ Aishwarya M C
 
 If you find this project useful, consider giving the repository a ⭐ on GitHub.
 
-### Additional Technologies
-
-
-- [Add your framework here]
-- [Add your database here]
-- [Add your API here]
 
 ---
 
@@ -155,7 +149,79 @@ If you find this project useful, consider giving the repository a ⭐ on GitHub.
 
 ### Learning Roadmap
 
-![Learning Roadmap](screenshots/roadmap.png)
+![Learning Roadmap](screenshots/roadmap.png) 
+
+COMPARE Python,SQL vs ML Engineer
+Start the program:
+cd skill-gap-analyzer
+python3 main.py
+Select:
+1. Analyze skills
+Enter the details:
+Candidate name:        [press Enter]
+Target role:           Machine Learning Engineer
+Candidate skills:      Python, SQL
+The application normalizes the skills and compares them with the role profile.
+Comparison result
+Required skills for Machine Learning Engineer:
+
+Python
+SQL
+NumPy
+Pandas
+Statistics
+Machine Learning
+Scikit-learn
+Git
+Matched required skills:
+
+Python
+SQL
+Missing required skills:
+
+NumPy
+Pandas
+Statistics
+Machine Learning
+Scikit-learn
+Git
+Missing optional skills:
+
+Deep Learning
+TensorFlow or PyTorch
+Docker
+Cloud fundamentals
+Match calculation
+Only required skills affect the score:
+
+Matched required skills / Total required skills × 100
+2 / 8 × 100 = 25.00%
+Assessment:
+
+Needs Improvement
+Priority ordering
+The application prioritizes gaps using the project’s educational rule:
+
+High priority: foundational machine-learning concepts
+Medium priority: supporting tools
+Low priority: optional deployment and cloud skills
+Result:
+
+HIGH PRIORITY:
+1. Machine Learning
+2. Statistics
+3. Scikit-learn
+
+MEDIUM PRIORITY:
+4. NumPy
+5. Pandas
+6. Git
+
+LOW PRIORITY:
+7. Deep Learning
+8. TensorFlow or PyTorch
+9. Docker
+10. Cloud fundamentals
 
 ---
 
